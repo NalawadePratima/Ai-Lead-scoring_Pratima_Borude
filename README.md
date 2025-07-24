@@ -23,11 +23,11 @@ How to Run
    pip install -r requirements.txt
 2. Train the model
   python model/train_model.py
-3.Run Redis
+3. Run Redis
   redis-server  // Linux
-4.Start the API
+4. Start the API
   uvicorn api.main:app --reload
-5.Input example
+5. Input example
 {
   "industry": "IT",
   "job_title": "Developer",
@@ -37,7 +37,7 @@ How to Run
   "past_interactions": 2,
   "notes": "urgent"
 }
-6.output example
+6. output example
  {
   "intent_score": 0.78
 }
